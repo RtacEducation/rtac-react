@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 function EnquiryForm() {
   const key = import.meta.env.VITE_EMAIL_KEY;
-  const [state, handleSubmit] = useForm(key);
+  const [state, handleSubmit] = useForm("xoqgnrkr");
   if (state.succeeded) {
     toast.success(
       "Your request has been successfully submitted. We will connect with you as soon as possible."
